@@ -39,4 +39,4 @@ function iLoveTheBeatles() {
   // return array with the strings
   return beatlesLove;
 };
-iLoveTheBeatles(3); 
+iLoveTheBeatles(7); 
