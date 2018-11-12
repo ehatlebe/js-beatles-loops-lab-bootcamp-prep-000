@@ -22,6 +22,21 @@ function johnLennonFacts() {
 johnLennonFacts();
 
 function iLoveTheBeatles() {
-
+  let i = arguments[0];
+  // create var that stores empty array
+  let beatlesLove = [];
+  // do-while loop that adds "I love the Beatles!" to empty array
+  do {
+	  beatlesLove = ["I love the Beatles!", ...beatlesLove];
+	  //beatlesLove.unshift("I love the Beatles!");
+	  //console.log("I love the Beatles!");
+	  i++;
+  } while (i < 15);
+  // loop should then increment the number passed in as a parameter
+  // loop condition checks 
+  //   parameter num < 15
+  // loop contains a number of strings that represents the diff btwn input number & 15
+  // return array with the strings
+  return beatlesLove;
 };
-iLoveTheBeatles();
+iLoveTheBeatles(3); 
