@@ -33,7 +33,7 @@ function iLoveTheBeatles() {
 	  i++;
   } while (i < 15);
   // loop should then increment the number passed in as a parameter
-  // loop condition checks 
+  // loop condition checks
   //   parameter num < 15
   // loop contains a number of strings that represents the diff btwn input number & 15
   // return array with the strings
